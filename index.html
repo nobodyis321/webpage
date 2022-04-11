@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/mvp.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+<section id="topSection">
+
+    <img id="alex" src="alex.jpg" alt="It's a picture of me">
+
+    <div>
+        <h1>Alex Ye</h1>
+        <p>Game Developer</p>
+        <div >
+            <a class="buttons" href="" download="#">Resume</a>
+            <a id="contactButton" class="buttons" href="#formSection">Contact Me</a>
+        </div>
+    </div>
+
+</section>
+
+<hr>
+
+<section id="infographicSection">
+
+    <div class="aboutMeHonesty">
+
+        <h2 class="aboutMe">About Me and Academic Honesty</h2>
+
+        <p class=" aboutMeHonesty aboutMeP">
+
+            My name is Alex Ye. I aspire to become a game developer because I play games on my spare time and are interested in developing them myself. Other than that, I don't think
+            I have anything else that I think it interesting enough to share.
+
+        </p>
+
+        <h2 class="aboutMehonesty honesty">Honesty</h2>
+
+        <P class="aboutMeHonesty honestyP">
+            I declare that my assessment is wholly my own work in accordance with Seneca Academic Policy. No part of this assessment has been copied manually or electronically from any other 
+            sources(including web sites) except for the information supplied by the WEB222 instructors and/or made available in this assessment for my use. I also declare that no part of this assignment has
+            been distributed to other students.
+        </P>
+        
+
+    </div>
+
+
+    <div id="basicInfo">
+
+        <h2 class="basicInfo basicInfoTitle">Basic Information</h2>
+
+        <table class="basicInfo basicInfoTable">
+
+            <tbody>
+
+                <tr>
+                    <td>Age: </td>
+                    <td>21</td>
+                </tr>
+                <tr>
+                    <td>Email: </td>
+                    <td>aye8@myseneca.ca</td>
+    
+                </tr>
+                <tr>
+                    <td>Language: </td>
+                    <td>English, Cantonese, Mandarin</td>
+                </tr>
+                <tr>
+                    <td>Class Section: </td>
+                    <td>NEE</td>
+                </tr>
+                <tr>
+                    <td>Student ID: </td>
+                    <td>146186218</td>
+                </tr>
+                <tr>
+                    <td>Instructor: </td>
+                    <td>Narvreet Lehal</td>
+                </tr>
+            
+            </tbody>
+
+        </table>
+
+    </div>
+
+</section>
+
+
+<hr>
+
+
+<section id="educationSection">
+
+    <h1>Education</h1>
+
+    <div id="educationOne">
+
+
+        <div id="educationLeft">2021 - 2024 (expected) Ontario College Advanced Diploma</div>
+            
+        <div id="educationRight">Ontario College Advanced Diploma Seneca College</div> 
+            
+
+    </div>
+
+</section>
+
+
+<hr>
+
+<section id="formSection">
+
+    <h1>Contact Me</h1>
+
+    <form id="contactMeForm" name="contactMeForm" action="https://formspree.io/f/meqnrjoe" method="POST">
+        <label for="nameField">Name :</label>
+        <input type="text" id="nameField" name="nameField">
+        <label for="emailField">Email Address :</label>
+        <input type="email" id="emailField" name="emailField">
+        <label for="addressField">Address :</label>
+        <input type="text" id="addressField" name="addressField">
+        <label for="cityField">City: </label> 
+        <input type="text" list="cityList" id="cityField" name="cityField">
+        <label for="postalCodeField">Postal Code</label>
+        <input type="text" name="postalCodeField" id="postalCodeField" pattern="[A-Za-z][0-9][A-Za-z] [0-9][A-Za-z][0-9]">
+    
+        <div>
+            <input type="radio" value="comment" name="radioOption" id="commentOption" checked>
+            <label for="commentOption">Comment</label>
+            <input type="radio" value="hiring" name="radioOption" id="hiringOption">
+            <label for="hiringOption"> Hiring</label>
+            <input type="radio" value="questions" name="radioOption" id="questionOption">
+            <label for="questionOption">Question</label>
+        </div>
+
+        <div hidden id="hourlyFieldDiv" >
+            <label for="hourlyField">Hourly wage</label>
+            <input type="number" id="hourlyField" name="hourlyField" min="0">
+        </div>
+    
+        <textarea name="message" id="messageArea" cols="30" rows="5"></textarea>
+        
+        <label for="telField">Phone Number</label>
+        <input type="tel" id="telField" name="telField">
+        <input type="submit" name="submitButton" id="submitButton">
+    
+        <datalist id="cityList">
+            <option value="Vancouver"></option>
+            <option value="Toronto"></option>
+            <option value="Calgary"></option>
+            <option value="Montreal"></option>
+            <option value="Quebec City"></option>
+            <option value="Ottawa"></option>
+            <option value="Winnipeg"></option>
+            <option value="Edmonton"></option>
+            <option value="Thunder Bay"></option>
+            <option value="Whitehorse"></option>
+            <option value="Halifax Regional Municipality"></option>
+            <option value="Hamilton"></option>
+            <option value="Chalottetown"></option>
+            <option value="St.John's"></option>
+            <option value="Victoria"></option>
+            <option value="Mississaugua"></option>
+            <option value="Brampton"></option>
+            <option value="Saskatoon"></option>
+            <option value="Kingston"></option>
+            <option value="Windsor"></option>
+            <option value="London"></option>
+            <option value="Surrey"></option>
+            <option value="Regina"></option>
+            <option value="Greater Sudbury"></option>
+            <option value="Oshawa"></option>
+            <option value="Abbotsford"></option>
+            <option value="North Bay"></option>
+            <option value="Vaughan"></option>
+            <option value="Kawarthha Lakes"></option>
+            <option value="Burlington"></option>
+            <option value="Kamloops"></option>
+            <option value="Guelph"></option>
+            <option value="Prince Gerorge"></option>
+            <option value="Barrie"></option>
+            <option value="Brantford"></option>
+            <option value="Kitchener"></option>
+            <option value="Cambridge"></option>
+            <option value="St.Catharines"></option>
+            <option value="Sault Ste. Marie"></option>
+            <option value="Lethbridge"></option>
+            <option value="Belleville"></option>
+            <option value="Markham"></option>
+            <option value="Kelowna"></option>
+            <option value="Peterborough"></option>
+            <option value="Sarnia"></option>
+            <option value="Laval"></option>
+            <option value="Pickering"></option>
+            <option value="Grande Prairie"></option>
+            <option value="Red Deer"></option>
+        </datalist>
+    
+       
+    </form>
+
+
+</section>
+
+<script src="ye.js" ></script>
+
+</body>
+</html>
