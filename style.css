@@ -143,6 +143,8 @@ hr{
     align-content: center;
     width: 20%;
     height: 20%;
+    display: flex;
+    justify-content: space-around;
 }
 
 #contactButton{
@@ -291,6 +293,24 @@ hr{
 #educationSection div{
 
     flex-wrap: nowrap;    
+
+}
+
+#educationLeft{
+
+    font-size: 10px;
+
+}
+
+#topSection div div{
+
+    align-items: center;
+
+}
+.buttons{
+
+    display: flex;
+    justify-content: space-around;
 
 }
 
